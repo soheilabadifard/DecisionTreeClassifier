@@ -6,9 +6,6 @@ import warnings
 warnings.filterwarnings("ignore")  # to Ignore the deprication Warnings
 
 d = pd.read_csv("ann-train-normalized.csv", skiprows=1, header=None)
-# tst = pd.read_csv("c:\\Users\\SoHeiL\\Downloads\\Compressed\\ann-test.csv", skiprows=1, header=None)
-# feature_cost = pd.read_csv("c:\\Users\\SoHeiL\\Downloads\\Compressed\\ann-thyroid.csv", skiprows=1, header=None)
-
 
 def cost_calculation(y, y_hat):
     """The Function for calculating the Average  cost for classifying each class"""
